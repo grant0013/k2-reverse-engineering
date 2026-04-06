@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local dumps from running the tools
+k2_dump/
+k2_files/
+*.tar.gz
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Don't ever commit credentials
+.env
+*.key
+*.pem
+known_hosts
